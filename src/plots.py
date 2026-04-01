@@ -40,3 +40,11 @@ def plot_sentiment_interaction(df: pd.DataFrame, save: bool = True):
     plt.savefig("figures/figure2_narrative_sentiment.png", dpi=300)
 
     plt.show()
+
+def plot_text_validation(df: pd.DataFrame):
+    plot_df = df[["growth_dom", "text_narrative_score"]].dropna()
+
+    plot_df.plot(figsize=(10, 5), title="Price-Based vs Text-Based Narrative Measures")
+    plt.tight_layout()
+    plt.savefig("figures/figure3_text_validation.png", dpi=300)
+    plt.show()
