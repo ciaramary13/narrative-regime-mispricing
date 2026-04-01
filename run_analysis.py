@@ -10,8 +10,8 @@ from src.regression import run_interaction_regression, run_regression_with_volat
 from src.plots import plot_regime_returns, plot_sentiment_interaction
 
 
-FF_PATH = "data/F-F_Research_Data_Factors.csv"
-SENT_PATH = "data/SENTIMENT.xlsx"
+FF_PATH = "data/raw/F-F_Research_Data_Factors.csv"
+SENT_PATH = "data/raw/SENTIMENT.xlsx"
 
 
 def main():
