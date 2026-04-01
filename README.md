@@ -112,3 +112,13 @@ This provides a behavioral perspective on return predictability that complements
 
 **TL;DR:**  
 Value strategies perform best following periods of extreme growth dominance, especially when investor sentiment is elevated.
+
+## Extension: Text-Based Narrative Validation
+
+To validate the market-based proxy for narrative dominance, this project incorporates a text-derived measure using Google Trends data.
+
+A composite index is constructed from search interest in growth- and value-related terms. The resulting text-based narrative measure is moderately correlated with the market-based proxy (~0.45) and exhibits similar predictive patterns for future value returns.
+
+This supports the interpretation of narrative dominance as a belief-driven phenomenon observable in both market outcomes and public attention.
+
+This extension strengthens the interpretation of narrative dominance as a measurable and economically meaningful phenomenon rather than a purely model-based construct.
